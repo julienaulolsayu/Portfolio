@@ -1,0 +1,110 @@
+body {
+    background-color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: black;
+}
+
+.logo{
+    color: white;
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+}
+span{
+    color: #E11D48;
+}
+
+.nav-links a{
+    color: rgb(150, 148, 148);
+    text-decoration: none;
+
+}
+
+li{
+    display: inline;
+    padding: 10px;
+    font-family: 'Syne', sans-serif;
+    font-size: 13px;
+}
+
+.hire-me {
+    background-color: #E11D48;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 15px;
+    font-size: 14px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 500;
+    padding: 15px 25px;
+}
+
+h1{
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    padding-bottom: 5px;
+}
+
+h6{
+    color: white;
+    margin-top: 4%;
+}
+h1, h3{
+    margin: 0;
+}
+
+h3{
+    font-family: 'Syne', sans-serif;
+    font-size: 30px;
+    color: rgb(150, 148, 148);
+}
+
+#hero{
+    color: white;
+
+}
+
+p{
+    margin-top: 3%;
+    color: rgb(150, 148, 148);
+    font-size: 15px;
+}
+
+.see-projects{
+    color: white;
+    background-color: #E11D48;
+    border: none;
+    font-size: 14px;
+    padding: 15px 25px;
+    border-radius: 6px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 500;
+    margin-right: 1%;
+}
+
+.resume{
+    color: white;
+    background-color: black;
+    font-size: 14px;
+    padding: 15px 25px;
+    border-radius: 6px;
+    border: .2px solid white;
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+}
+
+.see-projects, .resume{
+    margin-top: 2%;
+}
