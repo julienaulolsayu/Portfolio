@@ -6,53 +6,309 @@
     <title>My Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
 </head>
-<body>
-    <nav class = "navbar">
-       <div class = "logo">JM<span>.</span></div>
-        <ul class = "nav-links">
-            <li><a href="">ABOUT</a></li>
-            <li><a href="">SKILLS</a></li>
-            <li><a href="">PROJECTS</a></li>
-            <li><a href="">EDUCATION</a></li>
-            <li><a href="">CERTS</a></li>
-            <li><a href="">CONTACT</a></li>
-        </ul>
-        <button class="hire-me">Hire me</button>
-    </nav>
 
-    <h6>SEEKING INTERNSHIP</h6>
+    <body>
+            <header>
+                <nav class = "navbar">
+                    <div class = "logo">
+                        JM
+                        <span>
+                            .
+                        </span>
+                    </div>
+                        <ul class = "nav-links">
+                            <li><a href="">ABOUT</a></li>
+                            <li><a href="">SKILLS</a></li>
+                            <li><a href="">PROJECTS</a></li>
+                            <li><a href="">EDUCATION</a></li>
+                            <li><a href="">CERTS</a></li>
+                            <li><a href="">CONTACT</a></li>
+                        </ul>
+                            <button class="hire-me">Hire me</button>
+                </nav>
+            </header>
 
-    <section id="hero">
-        
-        <h1>Juliene Hernandez<span>.</span></h1>
-        <h3>CS Student &<br>Aspiring Developer</h3>                     
-        <p>A 4th-year Computer Science student who's passionate about<br>
-            building real-world software. I love turning what I've learned in the<br>
-            classroom into projects that actaully work -- and I'm eager to bring<br>
-            that energy to a team</p> 
-        <button class="see-projects">See My Projects</button>    
-        <button class="resume">Download Resume</button> 
-    </section>  
+            
+        <section  id="hero">
+            <div class="container">
+                <div class="hero-content">
 
-    <section id="About">About me
+                    <h6 class="hero-badge">
+                        SEEKING INTERNSHIP · 2026
+                    </h6>
 
-        <h2>
-                Eager to learn. Ready to Contribute.
-        </h2>
-        <p>
-            Hi! I'm Juliene, an incoming 4th-year Computer Science student with a genuine curiosity <br>
-            for how technology works. I started out exploring simple websites and became <br>
-            fascinated by the logic and systems behind them.<br><br>
+                    <h1 class="hero-name">
+                        Juliene Hernandez
+                    </h1>
 
-            Over the past three years, I've completed various academic projects <br>
-            and coursework that introduced me to the fundamentals of programming and <br>
-            software development. These experiences gave me opportunities to <br>
-            practice coding, work on small projects, and better understand how software is<br>
-            designed and built. While I still have a lot to learn, I'm eager to continue <br>
-            improving my skills and gaining hands-on experience.
-        </p>
-    </section>
-</body>
+                    <h3 class="hero-sub">
+                        CS Student &<br> Aspiring Developer
+                    </h3>
+
+                    <p class="description">
+                        A 4th-year Computer Science student who's passionate about<br>
+                        building real-world software. I love turning what I've learned in the<br>
+                        classroom into projects that actaully work -- and I'm eager to bring<br>
+                        that energy to a team.
+                    </p>
+
+                </div>
+
+                <form class="hero-buttons">
+                    <a href="#" class="hero-projects">
+                        See My Projects
+                    </a>
+                    <a href="#" class="hero-resume">
+                        Download Resume
+                    </a>
+                </form>
+
+            </div>
+
+        </section>
+
+        <section id="about me">
+            <div class="container">
+                
+                <div class="about-content">
+
+                    <div class="about">
+                        <span>___ ABOUT ME</span>
+                    </div>
+
+                    <img src="portfolio image.jpg" alt="" width="300" height="400" style="float:left">
+
+                    <h2 class="about-title">
+                        Eager to learn.<br>
+                        Ready to<br>
+                        contribute.
+                    </h2>
+
+                    <p class="about description">
+                        Hi! I'm Juliene, an incoming 4th-year <b>Computer Science student</b> with a genuine curiosity <br>
+                        for how technology works. I started out exploring simple websites and became <br>
+                        fascinated by the logic and systems behind them.<br><br>
+
+                        Over the past three years, I've completed <b>various academic projects <br>
+                        and coursework</b> that introduced me to the fundamentals of programming and <br>
+                        software development. These experiences gave me opportunities to <br>
+                        practice coding, work on small projects, and better understand how software is<br>
+                        designed and built. While I still have a lot to learn, I'm eager to continue <br>
+                        improving my skills and gaining hands-on experience.
+                    </p>
+
+                </div>
+
+                <div class="about-info-grid">
+                    <div class="degree-card">
+                        <div class="label"><span>DEGREE</span></div>
+                        <div class="value">B.S Computer Science</div>
+                    </div>
+                    <div class="degree-card">
+                        <div class="label"><span>YEAR</span></div>
+                        <div class="value">Fourth Year</div>
+                    </div>
+                    <div class="degree-card">
+                        <div class="label"><span>GWA</span></div>
+                        <div class="value">1.28</div>
+                    </div>
+                    <div class="degree-card">
+                        <div class="label"><span>STATUS</span></div>
+                        <div class="value">Open to Internships</div>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="skill-tech">
+
+            <div class="container">
+                <div class="skill-tech-content">
+
+                    <div class="skill-head">
+                        <span>___WHAT I KNOW</span>
+                    </div>
+                    <div class="skill-title">
+                        Skills & Technologies
+                    </div>
+
+                    <div class="skill-sub">
+                        <p>
+                            Languages and tools I've worked with through coursework, personal<br>
+                            projects, and self-study. Still learning every day.
+                        </p>
+                    </div>
+
+                    <div class="skills">
+                        <div class="filters">
+                            <button class="active">All</button>
+                            <button class="">Language</button>
+                            <button class="">Frontend</button>
+                            <button class="">Backend</button>
+                            <button class="">Tools</button>
+                        </div>
+
+                        <div class="skills-grid">
+                            <div class="icon1">
+                                <img src="html-icon.png" alt="html" width="50" height="50">
+                            </div>
+                            <h4>HTML</h4>
+
+                            <div class="icon2">
+                                <img src="css-icon.png" alt="css"  width="50" height="50">
+                            </div>
+                            <h4>CSS</h4>
+
+                            <div class="icon3">
+                                <img src="java-icon.png" alt="java"  width="50" height="50">
+                            </div>
+                            <h4>Java</h4>
+
+                            <div class="icon4">
+                                <img src="php-icon.png" alt="php"  width="50" height="50">
+                            </div>
+                            <h4>PHP</h4>
+
+                            <div class="icon5">
+                                <img src="mysql-icon.png" alt="mysql"  width="50" height="50">
+                            </div>
+                            <h4>MySQL</h4>
+
+                            <div class="icon6">
+                                <img src="firebase-icon.png" alt="firebase"  width="50" height="50">
+                            </div>
+                            <h4>firebase</h4>
+
+                            <div class="icon7">
+                                <img src="figma-icon.png" alt="figma" width="50" height="50">
+                            </div>
+                            <h4>Figma</h4>
+
+                            <div class="icon8">
+                                <img src="canva-icon.png" alt="canva"  width="50" height="50">
+                            </div>
+                            <h4>Canva</h4>
+
+                            <div class="icon9">
+                                <img src="claude-icon.png" alt="claude"  width="50" height="50">
+                            </div>
+                            <h4>Claude</h4>
+                        
+                        </div>
+                    
+                    </div>
+
+                </div>
+            </div>
+            
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <div class="project-content">
+
+                    <div class="project-head">
+                        <span>
+                            ___ MY WORK
+                        </span>
+                    </div>
+
+                    <div class="project-title">
+                        Projects
+                    </div>
+
+                    <div class="project-sub">
+                        <p>A mix of class assignments, personal builds, and experiments -- each<br>
+                        one taught me something new.
+                        </p>
+                    </div>
+
+                    <div class="project-grid">
+                        <div class="card-1">
+                            <div class="project1">
+                                <h6>PERSONAL PROJECT</h6>
+                            </div>
+                            <div class="clip">
+                                <img src="" alt="">
+                            </div>
+                            <div class="prject-label">
+                                Hotel Reservation Management
+                            </div>
+                            <div class="project1-sublabel">
+                                A web-based hotel reservation system that <br>
+                                allows guests to book rooms online while <br>
+                                helping administrators manage reservations, room <br>
+                                availability, guest records, and booking schedules <br>
+                                efficiently.
+                            </div>
+                            <div class="tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>PHP</span>
+                            </div>
+                            <div class="card-button">
+                                <a href="#">GitHub</a>
+                            </div>
+                        </div>
+
+                         <div class="card-2">
+                            <div class="project2">
+                                <h6>GROUP PROJECT</h6>
+                            </div>
+                            <div class="clip">
+                                <img src="" alt="">
+                            </div>
+                            <div class="prject-label">
+                                Lost & Found App
+                            </div>
+                            <div class="project2-sublabel">
+                                A mobile-based lost & found application that <br>
+                                allows UMak students to post lost or found <br>
+                                items from their fellow students and directly<br>
+                                and directly message each other within the app.
+                            </div>
+                            <div class="tags">
+                                <span>ANDROID</span>
+                                <span>JAVA</span>
+                                <span>FIREBASE</span>
+                            </div>
+                            <div class="card-button">
+                                <a href="#">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section id="Education">
+            <div class="container">
+                <div class="educ-content">
+
+                    <div class="educ-head">
+                        <span>___ BACKGROUND</span>
+                    </div>
+
+                    <div class="educ-title">
+                        Education & Acitivies
+                    </div>
+
+                    <div class="educ-sub">
+                        <p>My academic journey and the extracurriculars that shaped how i think<br>
+                        about building software.</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+    </body>
 </html>
